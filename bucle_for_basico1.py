@@ -4,7 +4,7 @@ for i in range (151):
 for i in range (5, 1001, 5):
     print(i)
 
-for i in range (1,101):
+for i in range (0,101):
     if i%10==0:
         print ("Coding Dojo")
     elif i%5==0:
@@ -12,7 +12,7 @@ for i in range (1,101):
     else: print(i)
 
 sumafinal=0
-for i in range(0,501):
+for i in range(0,500001):
     if i%2==1:
         sumafinal+=i
 print(sumafinal)       
